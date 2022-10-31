@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(189, 235, 220);
+    background:  linear-gradient( 50deg, rgb(255, 255, 255), rgb(233, 214, 255), rgb(255, 255, 255), rgb(248, 248, 248) ); 
+    padding: 0;
+    margin: 0;
+}
+
+.img-logo{
+    width: 100%;
+    height: 35em;
+    opacity: 0.9;
+}
+
+.home-navbar {
+    width: 3em;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background:  linear-gradient( 50deg, rgb(181, 77, 21), rgb(135, 31, 31), rgb(107, 38, 38), rgb(120, 39, 39) ); 
+    z-index: 99;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+nav a {
+    color: #fff;
+    margin: auto 20px auto 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+nav li {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.container {
+    position: relative;
+    display: block;
+    transform: translate(10px, 5em);
+}
+
+.card-header {
+    position: relative;
+}
+
+.carousel-item {
+    opacity: 0.6;
+}
+
+.footer-clean {
+    padding:50px 0;
+    background-color:#fff;
+    color:#4b4c4d;
+  }
+  
+  .footer-clean h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-clean ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-clean ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-clean ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-clean .item.social {
+    text-align:right;
+  }
+  
+  @media (max-width:767px) {
+    .footer-clean .item {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-clean .item.social {
+      text-align:center;
+    }
+  }
+  
+  .footer-clean .item.social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin-left:10px;
+    margin-top:22px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-clean .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  @media (max-width:991px) {
+    .footer-clean .item.social > a {
+      margin-top:40px;
+    }
+  }
+  
+  @media (max-width:767px) {
+    .footer-clean .item.social > a {
+      margin-top:10px;
+    }
+  }
+  
+  .footer-clean .copyright {
+    margin-top:14px;
+    margin-bottom:0;
+    font-size:13px;
+    opacity:0.6;
+  }
+  
+  /* Credit to https://epicbootstrap.com/snippets/footer-with-columns */
