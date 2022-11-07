@@ -48,13 +48,9 @@ nav li {
   position: relative;
 }
 
-.carousel-item {
-  opacity: 0.6;
-}
-
 .footer-clean {
   padding:50px 0;
-  background-color:#fff;
+  background-color:rgb(230, 169, 184);
   color:#ff5100;
 }
 
@@ -160,3 +156,35 @@ z-index: 3;
 position: relative;
 background: #FFFFFF;
 }
+
+
+
+ 
+
+.mapa-responsivo{
+
+  overflow:hidden;
+
+  padding-bottom:50%;
+
+  position:relative;
+
+  height:50%;
+
+}
+
+.mapa-responsivo iframe{
+
+  left:5%;
+
+  top:10%;
+
+  height:90%;
+
+  width:90%;
+
+  position:absolute;
+
+}
+
+
